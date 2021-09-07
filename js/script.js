@@ -7,10 +7,19 @@ $(document).ready(function() {
         dotClass: 'btn-dot',
         responsive: {
             320: {
-                items: 1,
+                items: 1
+            },
+            480: {
+                items: 2
             },
             768: {
                 items: 2
+            },
+            1024: {
+                items: 3
+            },
+            1366: {
+                items: 3
             },
             1920: {
                 items: 3
