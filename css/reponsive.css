@@ -1,7 +1,4 @@
 @media (max-width:1920px) {
-    .wrapper {
-        width: 1920px;
-    }
     .nav-header .logo {
         margin: 20px 30px;
     }
@@ -194,9 +191,6 @@
 }
 
 @media (max-width:768px) {
-    .wrapper {
-        width: 768px;
-    }
     .top-header {
         padding: 15px 20px;
     }
@@ -273,9 +267,6 @@
 }
 
 @media(max-width:480px) {
-    .wrapper {
-        width: 480px;
-    }
     .top-header {
         display: none;
     }
@@ -353,9 +344,6 @@
 }
 
 @media(max-width: 425px) {
-    .wrapper {
-        width: 425px;
-    }
     .nav-header .logo {
         margin-left: -10px;
     }
@@ -425,9 +413,6 @@
 }
 
 @media (max-width: 375px) {
-    .wrapper {
-        width: 375px;
-    }
     #icon-bar {
         font-size: 24px;
     }
@@ -474,9 +459,6 @@
 }
 
 @media(max-width:320px) {
-    .wrapper {
-        width: 320px;
-    }
     #icon-bar {
         font-size: 24px;
     }

@@ -506,7 +506,7 @@ header {
 }
 
 .post-top .description-post {
-    color: #848484;
+    color: #424242;
     font-family: 'OpenSans', sans-serif;
     font-size: 14px;
     letter-spacing: 1px;
@@ -515,7 +515,7 @@ header {
 }
 
 .post .post-down {
-    color: #c0c0c0;
+    color: #c5c5c5;
     display: flex;
     margin-top: 18px;
     padding-bottom: 17px;
@@ -605,7 +605,7 @@ header {
 .nav-menu,
 .info-address,
 .footer-down {
-    color: #7e7e7e;
+    color: #888888;
     font-family: 'OpenSans', sans-serif;
     font-size: 14px;
 }
@@ -626,7 +626,7 @@ header {
 }
 
 .browser a {
-    color: #7e7e7e;
+    color: #888888;
 }
 
 .browser a:hover {
@@ -650,7 +650,7 @@ header {
 }
 
 .nav-menu a {
-    color: #7e7e7e;
+    color: #888888;
     letter-spacing: 0.5px;
     text-decoration: none;
 }
@@ -691,7 +691,7 @@ header {
 
 .info-address-right a {
     display: block;
-    color: #7e7e7e;
+    color: #888888;
     text-decoration: none;
 }
 
@@ -765,7 +765,7 @@ header {
 }
 
 .payment a {
-    color: #7e7e7e;
+    color: #888888;
 }
 
 .payment a:hover {
