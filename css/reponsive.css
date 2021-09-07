@@ -1,10 +1,13 @@
 @media (max-width:1920px) {
+    .wrapper {
+        width: 1920px;
+    }
     .nav-header .logo {
-        margin: 19px 30px;
+        margin: 20px 30px;
     }
     .menu {
         margin-top: 30px;
-        margin-left: 233px;
+        margin-left: 232px;
         font-family: 'Montserrat';
         font-weight: 800;
         font-size: 14px;
@@ -19,8 +22,8 @@
         text-decoration: none;
     }
     .nav-header .icoin {
-        margin-left: 400px;
-        margin-top: 25px;
+        margin-left: 402px;
+        margin-top: 27px;
         text-align: right;
     }
     .nav-header-icon-cart {
