@@ -329,7 +329,7 @@ header {
 }
 
 .box-product p {
-    margin-top: 10px;
+    margin-top: 11px;
     margin-bottom: 12px;
     font-family: 'Montserrat';
     font-size: 14px;
@@ -738,7 +738,7 @@ header {
 
 .ftd-left {
     display: flex;
-    margin-top: 22px;
+    margin-top: 20px;
     letter-spacing: 0.5px;
 }
 
@@ -757,7 +757,7 @@ header {
 /*box right*/
 
 .ftd-right {
-    margin-top: 18px;
+    margin-top: 15px;
 }
 
 .payment {
