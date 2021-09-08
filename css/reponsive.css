@@ -1,4 +1,7 @@
 @media (max-width:1920px) {
+    .wrapper {
+        width: 100%;
+    }
     .nav-header .logo {
         margin: 20px 30px;
     }
