@@ -90,7 +90,9 @@ header {
 #icon-bar,
 .icon-times,
 #search-input,
-#icon-search {
+#icon-search,
+.input-search,
+.icon-search-reponsive {
     display: none;
     z-index: 2;
 }
@@ -175,7 +177,6 @@ header {
 /*===================================Banner Panel=========================*/
 
 .main-content {
-    width: 100%;
     margin-top: 30px;
 }
 
@@ -785,7 +786,8 @@ header {
 
 /*===============================================CSS DOT-CAROUSEL==================*/
 
-._slider {
+
+/* ._sliders {
     margin: auto;
     width: 1140px;
     display: flex;
@@ -794,13 +796,13 @@ header {
     justify-content: center;
 }
 
-._slider img {
+._sliders img {
     display: none;
-    width: 150px;
-    height: 200px;
+    width: 200px;
+    height: auto;
 }
 
-._slider img.doactive {
+._slide .round1.doactive {
     display: flex;
 }
 
@@ -819,3 +821,8 @@ header {
     height: 20px;
     opacity: 0.5;
 }
+
+.dot:hover {
+    background-color: #8262b5;
+    opacity: 1;
+} */

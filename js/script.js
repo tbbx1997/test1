@@ -9,11 +9,14 @@ $(document).ready(function() {
             320: {
                 items: 1
             },
-            480: {
+            375: {
+                items: 1
+            },
+            425: {
                 items: 2
             },
             768: {
-                items: 2
+                items: 3
             },
             1024: {
                 items: 3
@@ -33,5 +36,17 @@ $(document).ready(function() {
     $('.icon-times').click(function() {
         $('.menu').removeClass('show');
         $('.icon-times').removeClass('active');
+    })
+    $('.icon-search-reponsive').click(function() {
+        $('.input-search').css('display', 'block');
+    })
+    $(function() {
+        var sliders = $('._slide').length;
+        for (let i = 0; i < sliders; i++) {
+            if (sliders[i] == 2) {
+                console.log(i);
+                // $('.round1', [i]).addClass('doactive');
+            }
+        }
     })
 });
