@@ -265,7 +265,7 @@ header {
     background-color: #8262b5;
     margin-top: 16px;
     margin-left: 3.8px;
-    width: 106px;
+    width: 108px;
     height: 40px;
 }
 
@@ -571,7 +571,7 @@ header {
 .footer-up-container {
     margin: auto;
     padding-top: 60px;
-    padding-bottom: 41px;
+    padding-bottom: 37px;
     display: flex;
     flex-wrap: wrap;
     width: 1145px;
@@ -601,8 +601,8 @@ header {
     font-size: 16px;
     letter-spacing: 0.5px;
     margin-left: 4px;
-    margin-bottom: 22px;
-    padding-bottom: 28px;
+    margin-bottom: 21px;
+    padding-bottom: 27px;
 }
 
 .lorem,
@@ -650,7 +650,7 @@ header {
     display: flex;
     margin-left: 4.5px;
     flex-wrap: wrap;
-    line-height: 29px;
+    line-height: 30px;
 }
 
 .nav-menu a {
@@ -666,10 +666,11 @@ header {
 
 .nav-menu1 {
     margin-right: 120px;
+    margin-top: -2px;
 }
 
 .nav-menu2 {
-    margin-top: 1px;
+    margin-top: -1px;
 }
 
 
@@ -689,7 +690,7 @@ header {
 }
 
 .info-address-right {
-    margin-left: 16px;
+    margin-left: 14px;
     line-height: 33px;
 }
 
@@ -725,7 +726,7 @@ header {
     display: flex;
     flex-wrap: nowrap;
     margin: auto;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     width: 1141px;
 }
 
@@ -742,7 +743,7 @@ header {
 
 .ftd-left {
     display: flex;
-    margin-top: 25px;
+    margin-top: 28px;
     letter-spacing: 0.5px;
 }
 

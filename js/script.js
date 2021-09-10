@@ -40,13 +40,4 @@ $(document).ready(function() {
     $('.icon-search-reponsive').click(function() {
         $('.input-search').css('display', 'block');
     })
-    $(function() {
-        var sliders = $('._slide').length;
-        for (let i = 0; i < sliders; i++) {
-            if (sliders[i] == 2) {
-                console.log(i);
-                // $('.round1', [i]).addClass('doactive');
-            }
-        }
-    })
 });
