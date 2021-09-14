@@ -6,24 +6,18 @@
         margin: 20px 30px;
     }
     .menu {
-        margin-top: 30px;
+        margin-top: 29px;
         margin-left: 233px;
-        font-family: 'Montserrat';
-        font-weight: 800;
-        font-size: 14px;
         text-transform: uppercase;
     }
     .nav-header .menu li {
         margin: 0px;
     }
     .nav-header .menu a {
-        color: black;
         margin-left: 50.2px;
-        text-decoration: none;
     }
     .nav-header .icoin {
         margin-left: 402px;
-        text-align: right;
     }
     .nav-header-icon-cart {
         margin-left: 25px;
@@ -39,7 +33,6 @@
     }
     .nav-header .icoin {
         margin: auto;
-        text-align: right;
     }
     .nav-header .icoin ul {
         margin-right: -40px;
@@ -47,19 +40,12 @@
     .nav-header-icon-cart {
         margin-left: 15px;
     }
-    .nav-header .icoin a {
-        color: black;
-        font-size: 30px;
-    }
     .nav-icoin {
         font-size: 50px;
     }
 }
 
 @media (max-width:1366px) {
-    .menu {
-        margin: auto;
-    }
     .nav-header .menu ul {
         margin-left: -25px;
     }
@@ -119,9 +105,13 @@
     #blg-post {
         width: 900px;
     }
-    .post {
-        width: 300px;
-        margin: auto;
+    .slide .post {
+        width: 286px;
+        height: 370px;
+        margin: 10;
+    }
+    .slide .box-img img {
+        width: 100%;
     }
     .footer-up-container,
     .footer-down-container {
@@ -141,8 +131,18 @@
 }
 
 @media (max-width:768px) {
+    @-moz-document url-prefix() {
+        .nav-header .icoin ul {
+            margin-right: 10px;
+            margin-top: -18px;
+        }
+    }
     .top-header {
         padding: 15px 20px;
+        font-size: 10px;
+    }
+    .t-header-right .sm-icoin {
+        font-size: 10px;
     }
     .nav-header .logo {
         width: 150px;
@@ -156,7 +156,6 @@
         margin-left: 0px;
     }
     .nav-header .icoin a {
-        color: black;
         font-size: 20px;
     }
     .banner-panel {
@@ -208,9 +207,15 @@
     #blg-post {
         width: 730px;
     }
-    .post {
-        width: 230px;
-        margin: auto;
+    .cart3,
+    .cart6,
+    .cart9 {
+        display: none;
+    }
+    .slide .post {
+        width: 350px;
+        height: 392px;
+        margin: 15px;
     }
     .footer-up-container,
     .footer-down-container {
@@ -275,8 +280,10 @@
         position: fixed;
         top: -1000px;
         width: 425px;
-        background-color: hsl(182, 94%, 67%);
+        height: 100%;
+        background-color: hsl(180, 83%, 77%);
         padding-left: 30px;
+        overflow-y: auto;
     }
     .nav-header .menu .main-menu-search-icon {
         margin-left: 0;
@@ -301,7 +308,7 @@
     }
     .icon-search-reponsive {
         display: block;
-        margin-left: 35px;
+        margin-left: 50px;
     }
     .input-search {
         position: absolute;
@@ -317,22 +324,19 @@
         background-repeat: no-repeat;
         background-position: right;
     }
-    .nav-header .icoin ul {
-        margin-left: -25px;
-    }
     .icon-times.active {
         position: fixed;
         display: block;
-        z-index: 1000;
+        z-index: 3;
         transition: .25s;
     }
     .nav-header .menu.show {
         padding-top: 60px;
         top: 0;
         opacity: 1;
-        z-index: 1000;
+        z-index: 3;
         height: 100%;
-        transition: .3s;
+        transition: .3s ease-in-out;
     }
     .banner-panel {
         width: 400px;
@@ -347,9 +351,20 @@
     }
     .banner-panel .pnr-top {
         margin-bottom: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .panel-left .txt-box1 {
-        left: 32%;
+        left: 30%;
+    }
+    @-moz-document url-prefix() {
+        .panel-left .txt-box1 {
+            left: 28%;
+        }
+        .panel-left .txt-banner1 {
+            font-size: 16px;
+            margin-left: 60px;
+        }
     }
     .mc-box {
         width: 425px;
@@ -377,8 +392,20 @@
     #blg-post {
         width: 400px;
     }
-    .post {
+    /* .post {
         width: 200px;
+    } */
+    .cart2,
+    .cart3,
+    .cart5,
+    .cart6,
+    .cart8,
+    .cart9 {
+        display: none;
+    }
+    .slide.slide2,
+    .slide.slide3 {
+        display: none;
     }
     .footer-up-container,
     .footer-down-container {
@@ -426,8 +453,9 @@
     .banner-panel .pnr-top {
         width: 300px;
         margin: auto;
-        padding-top: 10px;
-        padding-bottom: 10px;
+    }
+    .panel-left .txt-box1 {
+        left: 20%;
     }
     .mc-box {
         width: 350px;
@@ -439,8 +467,12 @@
         top: 150px;
     }
     #blg-post,
-    .post {
+    .slide.post {
         width: 350px;
+    }
+    .slide.slide2,
+    .slide.slide3 {
+        overflow: unset;
     }
     .footer-up-container,
     .footer-down-container {
@@ -475,6 +507,9 @@
     }
     .box-product .btn-add-cart {
         top: 280px;
+    }
+    .slide .post {
+        width: 320px;
     }
     .ftd-left {
         font-size: 12px;

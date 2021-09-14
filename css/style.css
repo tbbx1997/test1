@@ -98,11 +98,11 @@ header {
 }
 
 .menu {
+    margin: auto;
     font-family: 'Montserrat';
     font-weight: 800;
     font-size: 14px;
     text-transform: uppercase;
-    margin: auto;
 }
 
 .nav-header li {
@@ -235,7 +235,7 @@ header {
 
 .pnr-top .txt {
     position: absolute;
-    top: 41.8%;
+    top: 41.5%;
     left: 15.5%;
 }
 
@@ -432,26 +432,31 @@ header {
     margin: auto;
 }
 
-#blg-post {
+
+/*================================= Css for Carousel=======*/
+
+
+/* #blg-post {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
     max-width: 1140px;
     padding-top: 10px;
     padding-bottom: 70px;
-}
+} */
 
-.blog .post {
+
+/* .blog .post {
     background-color: #ffffff;
     position: relative;
     max-width: 360px;
     margin-top: 0;
 }
 
-.post img {
+.box-img img {
     width: 100%;
     background-color: #999999;
-}
+} */
 
 .post .date-background {
     background-color: #a1d1dd;
@@ -571,7 +576,7 @@ header {
 .footer-up-container {
     margin: auto;
     padding-top: 60px;
-    padding-bottom: 37px;
+    padding-bottom: 38px;
     display: flex;
     flex-wrap: wrap;
     width: 1145px;
@@ -685,7 +690,6 @@ header {
 }
 
 .box-info-address-right {
-    margin-top: -2px;
     letter-spacing: 0.2;
 }
 
@@ -787,24 +791,30 @@ header {
 
 /*===============================================CSS DOT-CAROUSEL==================*/
 
-
-/* ._sliders {
+.sliders {
+    position: relative;
     margin: auto;
     width: 1140px;
     display: flex;
-    left: 400;
-    overflow: hidden;
     justify-content: center;
+    overflow: hidden;
 }
 
-._sliders img {
-    display: none;
-    width: 200px;
-    height: auto;
-}
-
-._slide .round1.doactive {
+.slide {
+    margin-top: -5px;
     display: flex;
+}
+
+.slide .post {
+    margin: 15px;
+    background-color: #ffffff;
+    position: relative;
+    max-width: 360px;
+}
+
+.slide.slide2,
+.slide.slide3 {
+    overflow: hidden;
 }
 
 .dots {
@@ -812,18 +822,30 @@ header {
     margin: auto;
     display: flex;
     justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 62px;
 }
 
 .dot {
+    margin: 5px;
     border-radius: 100%;
     background-color: #8262b5;
     cursor: pointer;
-    width: 20px;
-    height: 20px;
+    width: 12px;
+    height: 12px;
     opacity: 0.5;
 }
 
 .dot:hover {
     background-color: #8262b5;
     opacity: 1;
-} */
+    width: 14px;
+    height: 14px;
+}
+
+.dot.dot-active {
+    background-color: #8262b5;
+    opacity: 1;
+    width: 14px;
+    height: 14px;
+}
