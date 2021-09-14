@@ -188,10 +188,43 @@ header {
     position: relative;
 }
 
+.panel-left {
+    background-color: #eeeeee;
+    width: 750px;
+    height: 560px;
+}
+
+.panel-left img {
+    position: absolute;
+    top: 22px;
+    z-index: 1;
+}
+
 .panel-left .txt-box1 {
     position: absolute;
-    top: 55.9%;
+    top: 56%;
     left: 45.2%;
+}
+
+.txt-bly-eye {
+    position: absolute;
+    top: 37%;
+    left: 36.5%;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    color: #e1e1e1;
+}
+
+.txt-blyszak {
+    font-size: 80px;
+}
+
+.txt-eyewear {
+    position: absolute;
+    top: 73%;
+    left: 32%;
+    font-size: 50px;
+    font-weight: 400;
 }
 
 .panel-left .txt-banner1 {
@@ -233,13 +266,14 @@ header {
 .pnr-top .txt {
     position: absolute;
     top: 41.5%;
-    left: 15.5%;
+    left: 16%;
 }
 
 .txt-top {
     color: #616161;
     font-size: 16px;
     letter-spacing: 3.2px;
+    font-weight: 400;
 }
 
 .txt-down {
@@ -250,7 +284,7 @@ header {
 .pnr-bottom .txt-box2 {
     position: absolute;
     top: 35.8%;
-    left: 10.8%;
+    left: 11%;
 }
 
 .txt-box2 .txt-top {
@@ -260,7 +294,7 @@ header {
 
 .pnr-bottom .txt-box2 .btn-shop-now {
     background-color: #8262b5;
-    margin-top: 16px;
+    margin-top: 17px;
     margin-left: 3.8px;
     width: 108px;
     height: 40px;
@@ -289,7 +323,8 @@ header {
     font-family: 'Montserrat';
     font-size: 12px;
     font-weight: 600;
-    letter-spacing: 6;
+    letter-spacing: 6px;
+    margin-left: 2px;
 }
 
 .box-mc-title #featured-item {
@@ -298,7 +333,8 @@ header {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 800;
-    letter-spacing: 2px;
+    letter-spacing: 2.5px;
+    word-spacing: -3px;
 }
 
 .box-mc-title .line-title {
@@ -310,7 +346,7 @@ header {
 /*==========================================Content Products==================*/
 
 .mc-products {
-    margin-top: 51px;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -319,7 +355,7 @@ header {
 .box-product {
     border: none;
     width: 265px;
-    margin-bottom: 34px;
+    margin-bottom: 45px;
     position: relative;
 }
 
@@ -329,19 +365,27 @@ header {
     height: auto;
 }
 
-.box-product p {
-    margin-top: 11px;
-    margin-bottom: 12px;
+.box-product h5 {
+    margin: 11px 0 12px 1px;
     font-family: 'Montserrat';
     font-size: 14px;
     font-weight: bold;
     letter-spacing: -0.3;
 }
 
+.box-product h5 a {
+    text-decoration: none;
+    color: #111111;
+}
+
+.box-product h5 a:hover {
+    color: #8262b5;
+}
+
 .box-product .btn-add-cart {
     background-color: #ffffff;
     position: absolute;
-    left: 8px;
+    left: 10px;
     top: 277px;
     height: 40px;
     width: 116px;
@@ -362,6 +406,7 @@ header {
 }
 
 .box-product .star-votes {
+    cursor: pointer;
     color: #d1d1d1;
     font-size: 11px;
     margin-left: 2px;
@@ -379,7 +424,7 @@ header {
 
 .box-product .line-thr-price {
     color: #999999;
-    margin-right: 5px;
+    margin-right: 3px;
     margin-left: 3px;
     text-decoration: line-through;
     font-family: 'OpenSans';
@@ -408,7 +453,6 @@ header {
 }
 
 .blog .latest {
-    color: #8262b5;
     font-size: 12px;
     font-weight: bold;
     padding-top: 12px;
@@ -417,10 +461,20 @@ header {
     letter-spacing: 6px;
 }
 
+.latest a {
+    color: #8262b5;
+    text-decoration: none;
+}
+
 .blog .title-news-event {
     margin-bottom: 24px;
     font-size: 24px;
     letter-spacing: 2.3px;
+}
+
+.title-news-event a {
+    color: #000000;
+    text-decoration: none;
 }
 
 .blog #line-bgr {
@@ -463,6 +517,7 @@ header {
     left: 20;
     width: 50px;
     height: 50px;
+    cursor: pointer;
 }
 
 .date-background .date {
@@ -471,7 +526,7 @@ header {
     text-align: center;
 }
 
-.date p {
+.date span {
     color: #ffffff;
     font-family: 'Montserrat';
     text-align: center;
@@ -486,7 +541,7 @@ header {
 }
 
 .post-top .txt-post {
-    margin: 16px 20px 18px 19px;
+    margin: 18px 20px 18px 19px;
 }
 
 .post-top .txt-post .title-post {
@@ -528,8 +583,12 @@ header {
     color: #c5c5c5;
     display: flex;
     margin-top: 18px;
-    padding-bottom: 17px;
+    padding-bottom: 19px;
     padding-left: 20px;
+}
+
+.post-down a {
+    color: #c1c1c1;
 }
 
 .post-down .like-heart {
@@ -576,8 +635,8 @@ header {
 
 .footer-up-container {
     margin: auto;
-    padding-top: 62px;
-    padding-bottom: 36px;
+    padding-top: 60px;
+    padding-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
     width: 1145px;
@@ -607,7 +666,7 @@ header {
     font-size: 16px;
     letter-spacing: 0.5px;
     margin-left: 4px;
-    margin-bottom: 21px;
+    margin-bottom: 20px;
     padding-bottom: 27px;
 }
 
@@ -748,7 +807,7 @@ header {
 
 .ftd-left {
     display: flex;
-    margin-top: 28px;
+    margin-top: 26px;
     letter-spacing: 0.5px;
 }
 
@@ -767,7 +826,7 @@ header {
 /*box right*/
 
 .ftd-right {
-    margin-top: 25px;
+    margin-top: 22px;
 }
 
 .payment {
@@ -798,6 +857,11 @@ header {
     width: 1140px;
     display: flex;
     justify-content: center;
+    overflow: hidden;
+}
+
+.slide2,
+.slide3 {
     overflow: hidden;
 }
 

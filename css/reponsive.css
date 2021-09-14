@@ -6,7 +6,7 @@
         margin: 20px 30px;
     }
     .menu {
-        margin-top: 29px;
+        margin-top: 30px;
         margin-left: 233px;
         text-transform: uppercase;
     }
@@ -81,6 +81,25 @@
     .banner-panel img {
         width: 100%;
     }
+    .panel-left {
+        width: 750px;
+        height: 439px;
+    }
+    .panel-left .img-panel-left img {
+        width: 48.9%;
+    }
+    .txt-bly-eye {
+        top: 39%;
+        left: 37.5%;
+    }
+    .panel-left .txt-blyszak {
+        font-size: 60px;
+    }
+    .panel-left .txt-eyewear {
+        top: 73%;
+        left: 32%;
+        font-size: 36px;
+    }
     .pnr-top {
         margin-bottom: 22px;
     }
@@ -117,6 +136,9 @@
     .address,
     .navigation {
         margin-left: 85px;
+    }
+    .icon-message {
+        margin-top: 55px;
     }
 }
 
@@ -158,6 +180,9 @@
     .banner-panel img {
         width: 100%;
     }
+    .panel-left {
+        height: 358px;
+    }
     .panel-left .txt-box1 {
         left: 40%;
     }
@@ -166,6 +191,16 @@
     }
     .panel-left .txt-box1 .btn-shop-now {
         margin-left: 127px;
+    }
+    .txt-bly-eye {
+        top: 38%;
+        left: 37.5%;
+    }
+    .panel-left .txt-blyszak {
+        font-size: 50px;
+    }
+    .panel-left .txt-eyewear {
+        font-size: 30px;
     }
     .mc-title {
         text-align: center;
@@ -236,6 +271,9 @@
     }
     .address .info-address {
         justify-content: center;
+    }
+    .icon-message {
+        margin-top: 22px;
     }
 }
 
@@ -329,6 +367,10 @@
         width: 400px;
         display: block;
         margin: auto;
+    }
+    .panel-left {
+        width: 400;
+        height: 306px;
     }
     .banner-panel img {
         width: 100%;
@@ -433,6 +475,7 @@
         margin-left: -108px;
     }
     .banner-panel,
+    .panel-left,
     .pnr-top,
     #blg-post,
     .slide.post,
@@ -441,11 +484,30 @@
     .footer-down-container {
         width: 350px;
     }
+    .panel-left {
+        height: 270px;
+    }
+    .txt-bly-eye {
+        top: 34%;
+        left: 42.5%;
+    }
+    .panel-left .txt-blyszak {
+        font-size: 40px;
+    }
+    .panel-left .txt-box1 {
+        left: 30%;
+    }
+    .panel-left .txt-banner1 {
+        font-size: 20px;
+    }
+    .panel-left .txt-eyewear {
+        font-size: 25px;
+    }
     .banner-panel .pnr-top {
         margin: auto;
     }
     .panel-left .txt-box1 {
-        left: 20%;
+        left: 30%;
     }
     .box-product {
         width: 170px;
@@ -467,6 +529,7 @@
         right: 2px;
     }
     .banner-panel,
+    .panel-left,
     .mc-box,
     #blg-post,
     .footer-up-container,
@@ -476,8 +539,21 @@
     .slide .post {
         width: 300px;
     }
+    .panel-left {
+        height: 235px;
+    }
+    .txt-bly-eye {
+        top: 40%;
+        left: 39.5%;
+    }
+    .panel-left .txt-blyszak {
+        font-size: 28px;
+    }
+    .panel-left .txt-eyewear {
+        font-size: 18px;
+    }
     .panel-left .txt-box1 {
-        left: 10%;
+        left: 7%;
     }
     .panel-left .txt-banner1 {
         font-size: 16px;
