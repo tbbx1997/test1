@@ -25,14 +25,12 @@
 }
 
 @media (max-width:1440px) {
-    .menu {
+    .menu,
+    .nav-header .icoin {
         margin: auto;
     }
     .nav-header .menu ul {
         margin-left: -10px;
-    }
-    .nav-header .icoin {
-        margin: auto;
     }
     .nav-header .icoin ul {
         margin-right: -40px;
@@ -55,7 +53,9 @@
 }
 
 @media (max-width:1024px) {
-    .nav-header .logo {
+    .nav-header .logo,
+    .about-us,
+    .address {
         width: 200px;
     }
     .nav-header .logo img {
@@ -67,9 +67,7 @@
     .nav-header .menu ul {
         margin-left: -15px;
     }
-    .nav-header .menu a {
-        margin-left: 20px;
-    }
+    .nav-header .menu a,
     .nav-header .menu .main-menu-search-icon {
         margin-left: 20px;
     }
@@ -89,7 +87,10 @@
     .panel-left .txt-box1 {
         left: 33%;
     }
-    .mc-box {
+    .mc-box,
+    #blg-post,
+    .footer-up-container,
+    .footer-down-container {
         width: 900px;
     }
     .box-product {
@@ -102,9 +103,6 @@
         left: 22px;
         top: 232px;
     }
-    #blg-post {
-        width: 900px;
-    }
     .slide .post {
         width: 286px;
         height: 370px;
@@ -112,14 +110,6 @@
     }
     .slide .box-img img {
         width: 100%;
-    }
-    .footer-up-container,
-    .footer-down-container {
-        width: 900px;
-    }
-    .about-us,
-    .address {
-        width: 200px;
     }
     .navigation {
         width: 330px;
@@ -158,7 +148,11 @@
     .nav-header .icoin a {
         font-size: 20px;
     }
-    .banner-panel {
+    .banner-panel,
+    .mc-box,
+    #blg-post,
+    .footer-up-container,
+    .footer-down-container {
         width: 730px;
     }
     .banner-panel img {
@@ -172,9 +166,6 @@
     }
     .panel-left .txt-box1 .btn-shop-now {
         margin-left: 127px;
-    }
-    .mc-box {
-        width: 730px;
     }
     .mc-title {
         text-align: center;
@@ -204,9 +195,6 @@
         font-size: 12px;
         margin-top: 9px;
     }
-    #blg-post {
-        width: 730px;
-    }
     .cart3,
     .cart6,
     .cart9 {
@@ -217,9 +205,8 @@
         height: 392px;
         margin: 15px;
     }
-    .footer-up-container,
-    .footer-down-container {
-        width: 730px;
+    .footer-up-container {
+        margin-bottom: -20px;
     }
     .about-us {
         width: 500px;
@@ -389,7 +376,9 @@
     .box-product .btn-add-cart {
         top: 180px;
     }
-    #blg-post {
+    #blg-post,
+    .footer-up-container,
+    .footer-down-container {
         width: 400px;
     }
     /* .post {
@@ -406,10 +395,6 @@
     .slide.slide2,
     .slide.slide3 {
         display: none;
-    }
-    .footer-up-container,
-    .footer-down-container {
-        width: 400px;
     }
     .nav-menu {
         display: unset;
@@ -447,18 +432,20 @@
     .input-search {
         margin-left: -108px;
     }
-    .banner-panel {
+    .banner-panel,
+    .pnr-top,
+    #blg-post,
+    .slide.post,
+    .mc-box,
+    .footer-up-container,
+    .footer-down-container {
         width: 350px;
     }
     .banner-panel .pnr-top {
-        width: 300px;
         margin: auto;
     }
     .panel-left .txt-box1 {
         left: 20%;
-    }
-    .mc-box {
-        width: 350px;
     }
     .box-product {
         width: 170px;
@@ -466,17 +453,9 @@
     .box-product .btn-add-cart {
         top: 150px;
     }
-    #blg-post,
-    .slide.post {
-        width: 350px;
-    }
     .slide.slide2,
     .slide.slide3 {
         overflow: unset;
-    }
-    .footer-up-container,
-    .footer-down-container {
-        width: 350px;
     }
 }
 
@@ -490,9 +469,11 @@
     .banner-panel,
     .mc-box,
     #blg-post,
-    .post,
     .footer-up-container,
-    .footer-down-container {
+    .footer-down-container,
+    .banner-panel .pnr-top,
+    .box-product,
+    .slide .post {
         width: 300px;
     }
     .panel-left .txt-box1 {
@@ -502,14 +483,8 @@
         font-size: 16px;
         margin-left: 63px;
     }
-    .box-product {
-        width: 265px;
-    }
     .box-product .btn-add-cart {
         top: 280px;
-    }
-    .slide .post {
-        width: 320px;
     }
     .ftd-left {
         font-size: 12px;
