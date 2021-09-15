@@ -236,7 +236,7 @@ header {
 
 .panel-left .txt-box1 .btn-shop-now {
     background-color: #8262b5;
-    margin-top: 4px;
+    margin-top: 2px;
     margin-left: 210px;
     width: 106px;
     height: 40px;
@@ -251,6 +251,7 @@ header {
     color: #f8f7fa;
     font-size: 14px;
     font-family: 'Montserrat';
+    margin-left: 4px;
 }
 
 .banner-panel .palnel-right {
@@ -288,8 +289,8 @@ header {
 }
 
 .txt-box2 .txt-top {
-    font-size: 16px;
     letter-spacing: 3.3px;
+    margin-top: -1px;
 }
 
 .pnr-bottom .txt-box2 .btn-shop-now {
@@ -392,7 +393,7 @@ header {
     border: none;
 }
 
-.box-product .btn-add-cart p {
+.box-product .btn-add-cart span {
     color: #666666;
     margin: auto;
     font-family: 'Montserrat';
@@ -400,7 +401,7 @@ header {
     font-size: 12px;
 }
 
-.box-product .btn-add-cart p:hover {
+.box-product .btn-add-cart span:hover {
     color: #8262b5;
     cursor: pointer;
 }
@@ -453,12 +454,12 @@ header {
 }
 
 .blog .latest {
-    font-size: 12px;
-    font-weight: bold;
-    padding-top: 12px;
     margin-left: 6px;
     margin-bottom: 10px;
+    padding-top: 12px;
     letter-spacing: 6px;
+    font-size: 12px;
+    font-weight: 800;
 }
 
 .latest a {
@@ -522,7 +523,7 @@ header {
 
 .date-background .date {
     border: 1px solid #fefefe;
-    padding: 6px;
+    padding: 7px;
     text-align: center;
 }
 
@@ -665,7 +666,7 @@ header {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     letter-spacing: 0.5px;
-    margin-left: 4px;
+    margin-left: 2px;
     margin-bottom: 20px;
     padding-bottom: 27px;
 }
@@ -826,7 +827,7 @@ header {
 /*box right*/
 
 .ftd-right {
-    margin-top: 22px;
+    margin-top: 20px;
 }
 
 .payment {
